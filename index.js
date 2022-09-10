@@ -99,4 +99,4 @@ client.on('interactionCreate', async interaction => {
     commandHandler(interaction);
 })
 
-client.login(MTAxODIyODA5Njg3ODUxODMwMg.GWAS5W.Qqk7lVdARLXxDl-vXlka73Ow6oRcmKmR2yPW10);
+client.login(MTAxODIyODA5Njg3ODUxODMwMg.GySfoo.-MN7-K1PZlAM6qRw6o4XJiMEd3g68hPeIYsFFQ);
