@@ -88,7 +88,7 @@ async function commandHandler(interaction) {
 
 (async () => {
     console.log('Registering commands..')
-    await rest.put(Routes.applicationCommands("Bot ID / Client ID"), {body: commands});
+    await rest.put(Routes.applicationCommands("MTAxODIyODA5Njg3ODUxODMwMg.GWAS5W.Qqk7lVdARLXxDl-vXlka73Ow6oRcmKmR2yPW10 / 1018228096878518302"), {body: commands});
 })();
 
 client.on('ready', async () => {
@@ -99,4 +99,4 @@ client.on('interactionCreate', async interaction => {
     commandHandler(interaction);
 })
 
-client.login(token);
+client.login(MTAxODIyODA5Njg3ODUxODMwMg.GWAS5W.Qqk7lVdARLXxDl-vXlka73Ow6oRcmKmR2yPW10);
